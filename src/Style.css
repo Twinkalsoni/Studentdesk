@@ -1,0 +1,245 @@
+.header{
+    /* padding: 15px 0; */
+    margin: 0;
+    background-color: #fff;
+    border: none;
+    z-index: 99999;
+    box-shadow: 0 0 5px #d1d1d1;
+    
+  }
+  .button{
+    background-color: #76ba5c;
+    font-weight: bolder;
+    border-radius: 4px;
+    border:  2px solid #76ba5c;
+    margin: 0 15px 0 0;
+    color: #fff;
+  }
+  a.search-submit-button{
+background:#76ba5c;
+border-bottom: 1 px solid #76ba5c;
+border-right: 1 px solid #76ba5c;
+border-top: 1 px top #76ba5c;
+color:#f8f8f8!important;
+float: right;
+font-family: inherit;
+font-size: 17px;
+padding: 8px 10px;
+text-align: center;
+width: 45px;
+height: 38px;
+border-radius: 0 10px 10px 0;
+
+  }
+  .me-2{
+      font-family: arial,sans-serif;
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0;
+    height: 38px;
+    border-radius: 10px 0 0 10px;
+    color: #5e5e5e;
+    border:1px solid #eee;
+    background: #fafafa;
+    min-width: 400px;
+
+  }
+  header .FormControl{
+      min-width: 400px;
+  }
+  .main{
+      background-color: #fff;
+      /* padding: 100px 0 0; */
+      float: left;
+      width: 100%;
+  }
+  
+   h3{
+      font-size: 24px;
+      margin-bottom: 30px;
+      margin: 0;
+      margin-top: 30px;
+  }
+  .book{
+    color: #76ba5c;
+height: 25px;
+width: 25px;
+  }
+  .listing-details{
+      background-color: #fff;
+      width: 100%;
+      float: left;
+      padding: 15px 0;
+  }
+  .listing-details h3{
+      margin: 0 0 5px;
+      float: left;
+      color: #76ba5c;
+      font-size: 20px;
+      min-width: 100%;
+      font-weight: 450;
+  }
+  .listing-details p{
+      margin: 0 0 4px;
+      float: left;
+      color: #666;
+      min-width: 100%;
+  }
+  
+  .listing-box{
+      width: 100%;
+      float: left;
+      box-shadow: 1px 0 4px #d1d1d1;
+      border: 1px solid #d1d1d1;
+      padding: 15px;
+      margin-bottom: 5px;
+  }
+  .img-box{
+      width: 15%;
+      float: left;
+  }
+  .img-responsive{
+      display: block;
+      max-width: 100%;
+      height: auto;
+      
+  }
+  .user{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .detail-box{
+      width: 55%;
+      float: left;
+      padding: 0 15px;
+  }
+  .boxbutton button{
+      background-color: #76ba5c;
+      font-size: 16px;
+      font-weight: 600;
+      display: inline-block;
+      color: #fff;
+      border-radius: 4px;
+      padding: 6px 10px;
+      margin: 0 10px 0 0;
+      text-align: center;
+      border: none;
+  }
+  .listing-details .postedby{
+      width: 25%;
+      float: left;
+  }
+  .postedby{
+      width: 25%;
+      float: left;
+  }
+  .listing-details .postedby h4{
+      color: #76ba5c;
+      margin: 0 0 25px;
+      font-size: 16px;
+  }
+  .listing-details .postedby p{
+      font-size: 14px;
+      margin: 0;
+      float: left;
+      margin-top: 30px;
+  }
+  .mrp-color{
+      color: #9999;
+  }
+
+
+  /* media Query */
+
+  @media screen and (max-width:767px)
+   {
+    .listing-details p span{
+        min-width: auto;
+        margin: 3px 5px 0 0;
+        color: #777;
+        font-size: 12px;
+    }  
+    .listing-details p{
+        font-size: 16px;
+        color: #333;
+        margin: 0;
+    }
+    .user{
+        display: none;
+    }
+     .listing-details p .postedby h4 strike{
+        color: #76ba5c;
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0 5px 0 0;
+    } 
+    Form button{
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    .header #navbar{
+        width: auto;
+        /* float: right; */
+    }
+  }
+
+@media screen and (max-width:360px)
+ {
+    .listing-details button{
+        font-size: 8px;
+        margin: 0;
+        width: 47%;
+    }
+    
+}
+
+  @media screen and (max-width:414px)
+  {
+      .listing-details .listing-box{
+          padding: 12px;
+      }
+      .listing-details p span{
+          font-size: 12px;
+          margin: 0 5px 0 0;
+      }
+      .listing-details p{
+          font-size: 12px;
+          margin-bottom: 1px;
+      }
+      .listing-details h3{
+          font-size: 15px;
+      }
+      .button{
+          width: 100%;
+          margin-bottom: 5px;
+      }
+      .listing-details .listing-box{
+        width: 70%;
+  }
+  @media (max-width: 420px)
+  {
+      .listing-details .postedby{
+          width: 58%;
+      }
+  }
+  @media screen and (max-width:480px)
+  {
+      .header #navbar{
+          text-align: center;
+      }
+  }
+@media screen and (max-width:991px)
+{
+    .listing-details button{
+font-size:12px;
+padding: 5px;
+margin: 0 5px 0 0;   
+}
+h3{
+    font-size: 18px;
+}
+
+}
+}
